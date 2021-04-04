@@ -21,11 +21,13 @@ body {
 }
 
 @media (max-width:768px) {
+
 .main-image { text-align: center;
 }
+    
 }
 
-.centered-main-page-element {
+.page-element {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -37,7 +39,7 @@ body {
     flex-grow: 1
 }
 
-.task-row-wrapper {
+.t-wrapper {
     display: flex;
 }
 
